@@ -34,7 +34,8 @@ const init = () => {
     btnIndex++;
   }
 };
-
+  $quizCount.textContent = quizCount + 1;
+  $quizLen.textContent = quizLen;
 const goToNext = () => {
   quizCount++;
   if(quizCount < quizLen){
