@@ -1,0 +1,14 @@
+body {
+  background-color: darkgreen;
+}
+.start_color {
+  text-align: center;
+  color: aliceblue;
+  text-decoration: none;
+
+}
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
